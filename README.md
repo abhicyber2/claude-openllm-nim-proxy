@@ -97,7 +97,7 @@ curl http://localhost:4001/usage \
 
 ## Production Deployment
 For GCP/OCI deployment with Terraform:
-👉 [claude-nim-oci-terraform](https://github.com/abhicyber/claude-nim-oci-terraform)
+Contact via LinkedIn 
 
 ## Troubleshooting
 
@@ -120,8 +120,7 @@ curl https://integrate.api.nvidia.com/v1/models \
 
 ## Support This Project
 ⭐ Star this repo if it helped you!
-📖 [Full setup guide on Gumroad](https://gumroad.com)
-💼 [Hire me for cloud consulting](https://linkedin.com/in/abhicyber)
+💼 [Available for cloud consulting](https://linkedin.com/in/abhicyber)
 
 ## Author
 Abhishek Banerjee · [linkedin.com/in/abhicyber](https://linkedin.com/in/abhicyber)
