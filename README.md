@@ -34,7 +34,6 @@ alias claude-ai='ANTHROPIC_API_KEY="your-nim-key" ANTHROPIC_BASE_URL="http://you
 
 ## Deployment
 Deployed on GCP e2-micro us-central1 Always Free tier — $0/month.
-Full Terraform: github.com/abhicyber/claude-nim-oci-terraform
 
 ## Author
 Abhishek Banerjee · linkedin.com/in/abhicyber
