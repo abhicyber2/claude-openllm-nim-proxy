@@ -1,7 +1,7 @@
 model_list:
   - model_name: claude-opus
     litellm_params:
-      model: nvidia_nim/nvidia/nemotron-3-ultra-550b-a55b
+      model: nvidia_nim/deepseek-ai/deepseek-v4-flash-0731
       api_key: os.environ/NGC_API_KEY
 
   - model_name: claude-sonnet
@@ -11,7 +11,7 @@ model_list:
 
   - model_name: claude-haiku
     litellm_params:
-      model: nvidia_nim/nvidia/nemotron-3.5-lightning-30b-a3b
+      model: nvidia_nim/deepseek-ai/deepseek-v4-flash-0731
       api_key: os.environ/NGC_API_KEY
 
   - model_name: claude-fallback
