@@ -1,0 +1,36 @@
+model_list:
+  - model_name: claude-opus
+    litellm_params:
+      model: nvidia_nim/nvidia/nemotron-3-ultra-550b-a55b
+      api_key: os.environ/NGC_API_KEY
+
+  - model_name: claude-sonnet
+    litellm_params:
+      model: nvidia_nim/deepseek-ai/deepseek-v4-flash-0731
+      api_key: os.environ/NGC_API_KEY
+
+  - model_name: claude-haiku
+    litellm_params:
+      model: nvidia_nim/nvidia/nemotron-3.5-lightning-30b-a3b
+      api_key: os.environ/NGC_API_KEY
+
+  - model_name: claude-fallback
+    litellm_params:
+      model: nvidia_nim/nvidia/nemotron-3-super-120b-a12b
+      api_key: os.environ/NGC_API_KEY
+
+litellm_settings:
+  drop_params: true
+  modify_params: true
+  reorder_tool_calls: true
+  num_retries: 5
+  retry_after: 15
+
+router_settings:
+  fallbacks:
+    - claude-opus:
+        - claude-fallback
+    - claude-sonnet:
+        - claude-fallback
+    - claude-haiku:
+        - claude-fallback
